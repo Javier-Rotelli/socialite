@@ -10,7 +10,7 @@ class OAuthTwoTestProviderStub extends AbstractProvider
 {
     public $http;
 
-    protected function getAuthUrl($state)
+    public function getAuthUrl($state)
     {
         return 'http://auth.url';
     }
